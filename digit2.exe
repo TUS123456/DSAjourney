@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+main(){
+	vector<int> arr={2,3,0,0};
+	int n =arr.size();
+	int t=n-1;
+	int sum=0;
+	for(int i=0; i<n; i++){
+		sum=sum+(pow(10,t)*arr[i]);
+	}
+	cout<<sum;
+}
